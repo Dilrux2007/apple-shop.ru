@@ -16,6 +16,8 @@ body {
   border-radius: 10px;
   max-width: 1290px;  
   margin: 50px auto;
+
+  
 }
 
 nav {
@@ -64,6 +66,7 @@ nav {
       padding: 16px;
       border: none;
       border-radius: 16px;
+      cursor: pointer;
       background: #0071E4;
       color: #FFFFFF;
       margin-right: 24px;
@@ -84,6 +87,7 @@ nav {
     .like_icon{
       margin-left: 20px;
       margin-right: 5px;
+      cursor: pointer;
       align-items: center;
       text-align: center;
     }
@@ -97,6 +101,7 @@ nav {
       border: none;
       font-family: 'SF Pro Display';
       font-style: normal;
+      cursor: pointer;
       font-weight: 400;
       font-size: 20px;
       line-height: 24px;
@@ -152,10 +157,11 @@ header{
     margin-top: 24px;
   .card{
     background: #FFFFFF;
-    box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.09);
     border-radius: 16px;
+    transition: 0.3s ease-in-out ;
+    border: 1px solid #f4f4f4;
     width: 282px;
-    height: 611px;
+    height: 625px;
     text-align: center;
     margin-top: 24px;
     p{
@@ -187,10 +193,17 @@ header{
       }
     }
 
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 5px 4px 8px 5px rgba(0, 0, 0, 0.09);
+      transition: 0.3s ease-in-out ;
+    }
+
     .produktlike{
         background: white;
         border: none;
         margin-left: 39px;
+        cursor: pointer;
        img{
         width: 20px;
         height: 20px;
@@ -249,6 +262,7 @@ header{
       flex: none;
       order: 1;
       flex-grow: 0;
+      margin-left: 12px;
       img{
         margin-right: 10px;
       }
@@ -633,6 +647,9 @@ footer{
     font-family: 'SF Pro Display';
   }
 }
+
+
+
 
 @media screen {
   // .papper{
