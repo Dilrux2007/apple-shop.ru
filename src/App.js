@@ -41,7 +41,7 @@ export default function App() {
           <div className='btns'><img src="/img/iPhone 14 Pro.svg" /><p>iPhone</p></div>
           <div className='btns'><img src="/img/iPad.svg" /><p>iPad</p> </div>
           <div className='btns'><img src="/img/Mac Book Air.svg" /><p>Macbook и iMac </p></div>
-          <div className='btns'><img src="/img/Apple watch.svg" /><p>Watch </p></div>
+          <div className='btns'><img src="/img/Apple Watch.svg" /><p>Watch </p></div>
           <div className='btns'><img src="/img/iPhone 14 Pro.svg" /><p>Гаджеты </p></div>
           <div className='btns'><img src="/img/iPhone 14 Pro (1).svg" /><p>Аксессуары </p></div>
           <button className='iphone14promax'><img src="/img/design_startframe__cffzwjeyro2q_large (1) 1.svg" />iPhone 14 Pro Max</button>
